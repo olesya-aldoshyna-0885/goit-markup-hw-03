@@ -1,0 +1,151 @@
+:root {
+    --text-color: #212121;
+    --accent-color: #2196F3;
+    --second-color:#757575;
+    --last-color: #FFFFFF;
+    --background-color: #E5E5E5;
+    --dark-color: #2F303A;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+.header-color {
+    background-color: var(--last-color);
+    color: inherit;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: inherit;
+}
+.header-color .link {
+    color: inherit;
+}
+.logo-blue {
+    color: var(--accent-color)
+}
+ul {
+    list-style: none;
+}
+.site-nav,
+.site-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;;
+}
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+.site-contacts .contacts-link.link {
+    color: var(--second-color);
+}
+.contacts-link.link:hover,
+.contacts-link.link:focus {
+color: var(--accent-color);
+}
+.btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--last-color);
+}
+.btn:hover,
+.btn:focus {
+    background-color: #188ce8;
+    color: var(--last-color);
+}
+.projects {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    }
+.type-projects {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--last-color);
+}
+.footer-color {
+    background-color: var(--dark-color);
+}
+address {
+    font-style: normal;
+}
+.link-footer,
+.footer-contacts {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.link-footer {
+    color: var(--last-color);
+}
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);;
+}
+/* Студия*/
+.hero {
+    background-color: var(--dark-color);
+}
+.main-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;  
+    color: var(--last-color);
+}
+.hidden-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    }
+.subtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    }
+.third-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.benefits{
+    font-size: 14px;
+    line-height: 1.71; 
+    letter-spacing: 0.03em;    
+    color: var(--second-color);
+}
+.profession {
+        font-size: 16px;
+        line-height: 1.18;    
+        letter-spacing: 0.03em;
+        color:var(--second-color);
+}
